@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Memory Game!</title>
+  <link rel="stylesheet" href="memory-game.css"/>
+</head>
+<body>
+<h1>Color Memory Game</h1>
+
+<!--GAMEBOARD-->
+<div id="game">
+</div>
+<!--FEEDBACK-->
+<div id="startControl">
+  <input type="range" min="4" max="30" value="4" step="2" id="cardSlider">
+  <span id="countDisplay">4</span>
+  <button id="startButton">Submit</button><br>
+</div>
+<div id="feedback">
+  <span id="score">Score: </span>
+  <span id="counter">0</span>
+  <button id="resetButton">Reset</button>
+</div>
+<script src="memory-game.js"></script>
+</body>
+</html>
